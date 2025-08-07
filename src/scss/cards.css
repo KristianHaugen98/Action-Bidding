@@ -1,0 +1,30 @@
+/* Card design */
+.card {
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+.card .card-text:first-child {
+  font-size: 14px;
+  color: #666;
+}
+.card .card-text .current-bid {
+  font-weight: bold;
+  color: #27ae60;
+}
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.card .card-img-top {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.container .row .col-md-4 {
+  padding: 0 15px;
+}
+.container .row .col-md-4 .card {
+  width: 100%;
+}/*# sourceMappingURL=cards.css.map */

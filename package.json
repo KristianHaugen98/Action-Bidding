@@ -1,0 +1,19 @@
+{
+  "name": "action-bidding",
+  "version": "1.0.0",
+  "description": "Action Bidding is a solo project where i want to create an auction website, and play around with styles and techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "sass": "^1.89.2"
+  }
+}

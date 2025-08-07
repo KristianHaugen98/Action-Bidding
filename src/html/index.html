@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auction Bidding</title>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/din-kode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navigation-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/src/html/index.html">Auction Bidding</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/src/html/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Auctions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Main focus in homepage-->
+    <main class="inner cover text-center" role="main">
+      <h1 class="cover-heading">Ensure a piece of historical art!</h1>
+      <p class="lead">
+        Fast, secure auctions for unique finds-bid confidently.
+      </p>
+      <div class="d-flex justify-content-center">
+        <a href="auctions.html" class="btn btn-secondary btn-lg">
+          Go to Auctions
+        </a>
+      </div>
+    </main>
+    <!--Picture-->
+    <section id="auction-preview" class="py-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="/img/antique 1.jpg"
+              class="img-fluid"
+              alt="Auksjonsutstilling"
+            />
+          </div>
+          <div class="col-md-4">
+            <img src="/img/antique 2.jpg" class="img-fluid" alt="Auksjon 2" />
+          </div>
+          <div class="col-md-4">
+            <img src="/img/antique 3.jpg" class="img-fluid" alt="Auksjon 2" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Preview some auctions-->
+    <section id="auctions" class="py-5">
+      <h2 class="text-center mb-2">Active Auctions</h2>
+      <!--Search for auctions-->
+      <form class="form-inline">
+        <input
+          class="text-center mr-sm-2"
+          type="search"
+          placeholder="Seach"
+          aria-label="Search"
+        />
+        <button
+          class="btn btn-outline-success my-2 my-sm-0 text-center"
+          type="submit"
+        >
+          Search for auctions
+        </button>
+      </form>
+
+      <!--Cards-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="/img/antique 1.jpg"
+                alt="Auction 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Description</p>
+                <p class="card-text">
+                  Current bid <span class="current-bid">500kr</span>
+                </p>
+                <a href="#" class="btn btn-primary">Bid now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="/img/antique 2.jpg"
+                alt="Auction 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Description</p>
+                <p class="card-text">
+                  Current bid <span class="current-bid">500kr</span>
+                </p>
+                <a href="#" class="btn btn-primary">Bid now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="/img/antique 3.jpg"
+                alt="Auction 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">Description</p>
+                <p class="card-text">
+                  Current bid <span class="current-bid">500kr</span>
+                </p>
+                <a href="#" class="btn btn-primary">Bid now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center text-md">
+            <h5>Contact us</h5>
+            <p>Email: auctionbidding@email.com</p>
+            <p>Phone: 123 45 678</p>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text.light">Home</a></li>
+              <li><a href="index.html" class="text.light">Auctions</a></li>
+              <li><a href="index.html" class="text.light">Contact</a></li>
+              <li><a href="index.html" class="text.light">About us</a></li>
+              <li><a href="index.html" class="text.light">Register</a></li>
+              <li><a href="index.html" class="text.light">Login</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md">
+            <h5>Follow us</h5>
+            <a href="#" class="text-light me-3">X</a>
+            <a href="#" class="text-light me-3">YouTube</a>
+          </div>
+        </div>
+        <hr class="bg-light" />
+        <p class="text-center mt-3">
+          © 2025 Auction Bidding. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

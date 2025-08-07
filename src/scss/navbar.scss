@@ -1,0 +1,17 @@
+.navbar {
+  .navbar-brand {
+    font-size: 28px;
+    padding-left: 10px;
+  }
+  .nav-link {
+    font-size: 18px;
+    padding-bottom: 18px;
+    color: white;
+  }
+  .nav-link[href="login.html"] {
+    color: #0dff00;
+  }
+  .nav-link[href="register.html"] {
+    color: black;
+  }
+}

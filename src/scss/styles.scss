@@ -1,0 +1,25 @@
+// Import Bootstrap
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import other styles like: Navigation, cards, footer etc.
+@import "navbar";
+@import "cards";
+@import "search";
+@import "footer";
+
+* {
+  max-width: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+#auction-preview {
+  .img-fluid {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+  }
+}
