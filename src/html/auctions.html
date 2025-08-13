@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auctions</title>
+    <!--stylesheets and fontawsome-->
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/din-kode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navigation-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/src/html/index.html">Auction Bidding</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/src/html/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="auctions.html">Auctions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Main focus text-->
+    <main class="inner cover text-center" role="main">
+      <h1 class="cover-heading">Our finest and well preserved auctions</h1>
+      <p class="lead">
+        Fast, secure auctions for unique finds-bid confidently.
+      </p>
+    </main>
+    <!--Search for auctions-->
+    <form class="form-inline">
+      <input
+        id="search"
+        class="text-center mr-sm-2"
+        type="search"
+        placeholder="Seach"
+        aria-label="Search"
+      />
+      <button
+        class="btn btn-outline-success my-2 my-sm-0 text-center"
+        type="submit"
+      >
+        Search for auctions
+      </button>
+    </form>
+    <!--We will load more cards (auctions) her dynamically from API-->
+    <div class="row"></div>
+
+    <!--Footer-->
+    <footer class="bg-dark text-light py-4 bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center text-md">
+            <h5>Contact us</h5>
+            <p>Email: auctionbidding@email.com</p>
+            <p>Phone: 123 45 678</p>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text.light">Home</a></li>
+              <li><a href="index.html" class="text.light">Auctions</a></li>
+              <li><a href="index.html" class="text.light">Contact</a></li>
+              <li><a href="index.html" class="text.light">About us</a></li>
+              <li><a href="index.html" class="text.light">Register</a></li>
+              <li><a href="index.html" class="text.light">Login</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md">
+            <h5>Follow us</h5>
+            <a href="#" class="text-light me-3">X</a>
+            <a href="#" class="text-light me-3">YouTube</a>
+          </div>
+        </div>
+        <hr class="bg-light" />
+        <p class="text-center mt-3">
+          © 2025 Auction Bidding. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="/src/js/auctions.js"></script>
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>
