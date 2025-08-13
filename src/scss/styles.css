@@ -12014,6 +12014,13 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+.container .row .col-md-4 {
+  padding: 0 15px;
+}
+.container .row .col-md-4 .card {
+  width: 100%;
+}
+
 /* Search button styling */
 .form-inline {
   padding: 10px;
