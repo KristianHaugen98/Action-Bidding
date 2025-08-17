@@ -12030,6 +12030,7 @@ textarea.form-control-lg {
 /* Footer */
 footer .container {
   padding: 20px 0;
+  position: fixed;
 }
 footer a:hover {
   color: #ddd;
