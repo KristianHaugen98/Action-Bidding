@@ -1,13 +1,35 @@
-# Action-Bidding
+# Auction Bidding
 
-Action Bidding is an solo project where i want to create an auction website, and play around with styles and techniques.
+A modern online auction platform where users can browse, bid on items, create listings and manage their profile.
 
-The whole point of this project is to show that i can make a project with features like: Fetching data with API, and display it on the webpage.
-People with Noroff authorization emails and their passwords can register, login, have an profile page, upload auctions to the API, bid and so.
+## Description
 
-# Technologies used:
+Welcome to Auction Bidding. This is a fully functional auction website built as a Front-End Semester Project 2 at Noroff.
 
-1, Bootstrap.
-2, Playwright Testing.
-3, API calls. (Fetch API).
-4, JavaScript programming language.
+Key features:
+
+- Browse and search auction listings
+- Place bids on items
+- Create your own auction listings
+- User registration and login (Noroff students)
+- View user profiles and winning bids
+
+## Built With
+
+- HTML5
+- CSS3 / SCSS
+- JavaScript (Vanilla)
+- Bootstrap
+
+## Getting Started
+
+### Installing
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/KristianHaugen98/auctionbidding.git
+
+   ```
+
+2. Install dependencies: npm install
